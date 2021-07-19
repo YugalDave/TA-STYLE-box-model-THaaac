@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 25px;
+    font-weight: bold;}
+#main {
+    background-color: rgb(214, 255, 214);
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 20px;
+    border: 15px solid rgb(152, 255, 255);
+    display: inline-block ;
+
+}
+#second{
+ width: 100px ;
+ height: 100px;
+ padding: 65px;
+ margin: -70px;
+ border: 5px solid black;
+}
+#last{
+    width: 100px ;
+    height: 100px;
+    border: 15px solid rgb(238, 41, 107);
+    padding: 70px;
+    margin: -85px;
+}
+#center{
+    width: min-content;
+    margin: 20px auto;
+}
+hr{
+    border: 0.6px dotted rgb(197, 212, 252);
+    margin-top: 30px;
+    width: 50%;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+} 
+#a{
+    background-color: rgb(214, 255, 214);
+}
+#b{
+    background-color: rgb(152, 255, 255);
+}
+#c{
+    background-color: black;
+}
+#d{
+    background-color: rgb(238, 41, 107);
+}
+
+.inline-block {
+    display: inline-block;
+    margin: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+span {
+    vertical-align: middle;
+}
+#para{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.block{
+    display: inline-block;
+    background-color: rgba(196, 177, 177, 0.808);
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    
+}
+#span-block{
+    border: 1px solid rgb(194, 189, 182);
+    width: 600px;
+    margin: 20px auto;
+}
+.para{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+.px{
+    display: inline-block;
+    background-color: rgba(196, 177, 177, 0.808);
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#span-box{
+ 
+    margin: 20px auto;
+    border: 1px solid rgb(194, 189, 182) ;
+    width: 600px;
+    box-sizing: border-box;
+}
+.box{
+        display: inline-block;
+        background-color: rgba(196, 177, 177, 0.808);
+        width: 180px;
+        height: 100px;
+        margin: 10px;
+        border-bottom: 1px solid black ;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        box-sizing: border-box;
+}
+#last-box{
+    border: 1px solid rgb(194, 189, 182);
+    width: 600px;
+    margin: 20px auto;
+    
+}
